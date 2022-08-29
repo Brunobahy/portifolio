@@ -1,0 +1,28 @@
+:root{
+    --azul: #88C1F2;
+    --azul-claro: #A2D4F2;
+    --azul-escuro: #4E9FBF;
+    --marrom: #2F4033;
+    --pele: #A67468;
+    --cinza-claro: #f7f7f7;
+    
+    --montserrat: montserrat, Sans-serif;
+    --dancing: Dancing Script, cursive;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulo{
+    color: var(--pele);
+
+    padding-bottom: 2rem ;
+
+    text-shadow: 1px 1px 5px black;
+
+    font-family: var(--dancing);
+    font-size: 8rem;
+
+}

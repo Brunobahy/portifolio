@@ -1,0 +1,104 @@
+.formacao{
+    margin-top: 1rem;
+}
+.formacao__titulo{
+    text-align: center;
+}
+
+.formacao__lista{
+    display: flex;
+    flex-wrap: wrap;
+
+    height: 100vh;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formacao__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    padding: 10px;
+
+    width: 16%;
+    height: 27%;
+
+    text-align: center;
+    
+    box-shadow: 1px 1px 10px lightgray;
+    
+    transition: all 400ms;
+}
+.formacao__item:hover{
+    width: 17%;
+    height: 28%;
+    padding: 11px;
+    box-shadow: 1px 1px 15px gray;
+}
+
+.formacao__item--imagem{
+    height: 30%;
+    margin: 10px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.formacao__item--nome{
+    font: bold 1rem var(--montserrat);
+    padding-top: 10px;
+}
+
+.formacao__item--texto{
+    font: lighter 1rem var(--montserrat);
+    margin-bottom: 20px ;
+}
+
+.formacao__item--visitar{
+
+}
+
+
+/*imagens*/
+
+.acessibilidade{
+    background-image: url(https://www.alura.com.br/assets/api/cursos/acessibilidade-web-front-end.svg);
+}
+.arquitetura__css{
+    background-image: url(https://www.alura.com.br/assets/api/cursos/arquitetura-css.svg);
+}
+.arquitetura__computadores{
+    background-image: url(https://www.alura.com.br/assets/api/cursos/arquitetura-computadores-funcionamento-programa.svg);
+}
+.flexbox{
+    background-image: url(https://www.alura.com.br/assets/api/cursos/posicione-elementos-com-flexbox.svg);
+}
+.git{
+    background-image: url(https://www.alura.com.br/assets/api/cursos/git-github-repositorio-commit-versoes.svg);
+}
+.html__1{
+    background-image: url(https://www.alura.com.br/assets/api/cursos/html5-css3-primeiros-passos.svg);
+}
+.html__2{
+    background-image: url(https://www.alura.com.br/assets/api/cursos/html5-css3-posicionamento-listas-navegacao.svg);
+}
+.javascript{
+    background-image: url(https://www.alura.com.br/assets/api/cursos/javascript-web-paginas-dinamicas.svg);
+}
+.responsivo{
+    background-image: url(https://www.alura.com.br/assets/api/cursos/mobile-first-layouts-responsivos.svg);
+}
+.linux{
+    background-image: url(https://www.alura.com.br/assets/api/cursos/linux-ubuntu.svg);
+}
+.logica-1{
+    background-image: url(https://www.alura.com.br/assets/api/cursos/pong-javascript.svg);
+}
+.logica-2{
+    background-image: url(https://www.alura.com.br/assets/api/cursos/javascript-listas-lacos.svg);
+}
+.seo{
+    background-image: url(https://www.alura.com.br/assets/api/cursos/seo-otimizacao-sites.svg);
+}
