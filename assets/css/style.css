@@ -8,6 +8,7 @@
     
     --montserrat: montserrat, Sans-serif;
     --dancing: Dancing Script, cursive;
+    --pacifico: pacifico, cursive;
 }
 
 .container{
@@ -18,11 +19,20 @@
 .titulo{
     color: var(--pele);
 
-    padding-bottom: 2rem ;
+    margin: 2rem 0px;
 
     text-shadow: 1px 1px 5px black;
+    text-align: center;
 
     font-family: var(--dancing);
     font-size: 8rem;
 
+}
+
+@media screen and (max-width: 600px) {
+    .titulo{
+        font-size: 5rem;
+    
+    }
+    
 }

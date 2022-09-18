@@ -3,12 +3,14 @@
     justify-content: space-between;
     background-color: var(--azul);
     align-items: center;
+    height: 57px;
 }
 
 .cabecalho__nome{
-    font: normal 3rem var(--dancing);
+    font: normal 3rem var(--pacifico);
     color: var(--marrom);
-    margin-left: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
 }
 
 .cabecalho__navegacao{
@@ -24,4 +26,24 @@
 .cabecalho__navegacao--link{
     text-decoration: none;
     color: var(--marrom);
+}
+
+@media screen and (max-width: 1114px ) {
+    .cabecalho{
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+    }
+    .cabecalho__nome{
+        margin: 0 0 1rem 0;
+        font-size: 4rem;
+    }
+    .cabecalho__navegacao{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cabecalho__navegacao--itens{
+        margin-bottom: 1rem;
+    }
+    
 }

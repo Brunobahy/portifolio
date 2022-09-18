@@ -1,0 +1,16 @@
+.rodape{
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background-color: var(--azul);
+}
+.rodape__container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rodape__icone{
+    align-self: right;
+    width: 3rem;
+    margin-left: 1rem;
+}

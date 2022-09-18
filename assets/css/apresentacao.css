@@ -1,13 +1,14 @@
 .apresentacao{
     display: flex;
     text-align: center;
-    height: calc(100vh - 57px);
+    
     background-color: var(--cinza-claro);
 }
 
-.apresentacao__box{
-    padding: 2rem;
-    margin: 10px 20px
+
+.apresentacao__box--titulo{
+    font-size: 4rem;
+    text-shadow: 1px 1px 5px grey;
 }
 
 .apresentacao__box--texto{
@@ -15,4 +16,37 @@
     color: var(--pele);
     font-size: 2.5rem;
     line-height: 3.5rem;
+}
+.apresentacao__foto{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .apresentacao__box{
+        margin: 20px 0;
+        padding: 0;
+    }
+    .apresentacao__box--titulo{
+        font-size: 2.5rem;
+    }
+    .apresentacao__box--texto{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 769px) {
+   
+    .apresentacao__foto{
+        align-self: center;
+    }
+    
+}
+@media screen and (max-width: 1095px) {
+    .apresentacao{
+        flex-direction: column;
+        height: auto;
+    }
 }

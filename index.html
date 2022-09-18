@@ -3,14 +3,17 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>TITULO AQUI</title>
+        <title>Bruno Bahy - Curriculo</title>
         
         <link rel="stylesheet" href="assets/css/reset.css">
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/cabecalho.css">
         <link rel="stylesheet" href="assets/css/apresentacao.css">
         <link rel="stylesheet" href="assets/css/formacao.css">
+        <link rel="stylesheet" href="assets/css/projetos.css">
+        <link rel="stylesheet" href="assets/css/rodape.css">
+
     </head>
     <body>
         <header class="cabecalho">
@@ -18,8 +21,8 @@
             <nav>
                 <ul class="cabecalho__navegacao">
                     <li class="cabecalho__navegacao--itens"><a href="#" class="cabecalho__navegacao--link">Home</a></li>
-                    <li class="cabecalho__navegacao--itens"><a href="#" class="cabecalho__navegacao--link">projetos</a></li>
-                    <li class="cabecalho__navegacao--itens"><a href="#" class="cabecalho__navegacao--link">formações</a></li>
+                    <li class="cabecalho__navegacao--itens"><a href="#formacao" class="cabecalho__navegacao--link">formações</a></li>
+                    <li class="cabecalho__navegacao--itens"><a href="#projetos" class="cabecalho__navegacao--link">projetos</a></li>
                     <li class="cabecalho__navegacao--itens"><a href="#" class="cabecalho__navegacao--link">contato</a></li>
                 </ul>
             </nav>
@@ -28,11 +31,11 @@
             <section class="apresentacao container">
                 <img src="assets/img/foto.png" alt="" class="apresentacao__foto">
                 <div class="apresentacao__box">
-                    <h2 class="apresentacao__box--titulo titulo">Portfólio</h1>
-                    <p class="apresentacao__box--texto">Oi, seja bem-vindo ao meu portfólio virtual aqui você verá os meus principais projetos como front-end e as minhas formações.</p>
+                    <h2 class="apresentacao__box--titulo titulo">Ola! seja bem-vindo</h1>
+                    <p class="apresentacao__box--texto">Sou Bruno Bahy e este é o meu portfólio virtual aqui você verá os meus principais projetos como front-end e as minhas formações.</p>
                 </div>
             </section>
-            <section class="formacao container">
+            <section id="formacao" class="container">
                 <h2 class="formacao__titulo titulo">Formação</h2>
                 <ul class="formacao__lista">
                     <li class="formacao__item">
@@ -127,6 +130,41 @@
                     </li>
                 </ul>
             </section>
+            <section id="projetos" class="container">
+                <h2 class="projetos__titulo titulo">Projetos</h2>
+                <div>
+                    <ul class="projetos__grid">
+                        <il class="projetos__itens">
+                            <a href="#">
+                                <img src="assets/img/alert-svgrepo-com.svg" alt="">
+                                <h3>Em Criação</h3>
+                                <p>Em brave teremos concluido e anexado o site aqui!</p>
+                            </a>
+                        </il>
+                        <il class="projetos__itens">
+                            <a href="">
+                                <img src="assets/img/alert-svgrepo-com.svg" alt="">
+                                <h3>Em Criação</h3>
+                                <p>Em brave teremos concluido e anexado o site aqui!</p>
+                            </a>
+                        </il>
+                        <il class="projetos__itens">
+                            <a href="">
+                                <img src="assets/img/alert-svgrepo-com.svg" alt="">
+                                <h3>Em Criação</h3>
+                                <p>Em brave teremos concluido e anexado o site aqui!</p>
+                            </a>
+                        </il>
+                    </ul>
+                </div>
+            </section>
         </main>
+        <footer class="rodape">
+            <div class="rodape__container container">
+                <a href="https://www.instagram.com/brunobahy/"><img class="rodape__icone" src="assets/img/insta1.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/bruno-bahy"><img class="rodape__icone" src="assets/img/linkedin.svg" alt=""></a>
+                <a href="https://github.com/Brunobahy"><img class="rodape__icone" src="assets/img/github.svg" alt=""></a>
+            </div>
+        </footer>
     </body>
 </html>
