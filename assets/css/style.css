@@ -5,10 +5,17 @@
     --marrom: #2F4033;
     --pele: #A67468;
     --cinza-claro: #f7f7f7;
-    
+
+    --bkg-escuro: #070F21;
+    --bkg-claro: #0B1733;
     --montserrat: montserrat, Sans-serif;
     --dancing: Dancing Script, cursive;
     --pacifico: pacifico, cursive;
+
+}
+
+html{
+    font-family: var(--montserrat);
 }
 
 .container{
@@ -29,10 +36,41 @@
 
 }
 
+
+/*-----DARK-----*/
+main{
+    transition: all 400ms;
+}
+
+.escuro{
+    background-color: var(--bkg-escuro)!important;
+}
+.claro{
+    background-color: var(--bkg-claro) !important;
+}
+.fundoFormacao{
+    background-color: #17316E;
+}
+.fonteBranco{
+    color: var(--azul-claro)!important;
+}
+
+
+#botao-dark{
+    background: transparent;
+    border: none;
+    font-size: 1em;
+}
 @media screen and (max-width: 600px) {
     .titulo{
         font-size: 5rem;
-    
     }
-    
 }
+
+
+/* Color Theme Swatches in Hex */
+.Dark-Blues-1-hex { color: #244EAD; }
+.Dark-Blues-2-hex { color: #17316E; }
+.Dark-Blues-3-hex { color: #070F21; }
+.Dark-Blues-4-hex { color: #0B1733; }
+.Dark-Blues-5-hex { color: #0B1733; }
