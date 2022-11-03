@@ -41,10 +41,15 @@
    
     .apresentacao__foto{
         align-self: center;
+        margin-left: 20%;
     }
     
 }
 @media screen and (max-width: 1095px) {
+    .apresentacao__foto{
+        margin-left: 10%;
+
+    }
     .apresentacao{
         flex-direction: column;
         height: auto;
