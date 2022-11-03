@@ -43,6 +43,17 @@
     margin-bottom: 20px;
 }
 
+.formacao__item--visitar{
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: var(--azul-escuro);
+    color: #FDFDFD;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
 @media screen and (max-width: 677px) {
 
     .formacao__item {
@@ -140,8 +151,25 @@
 .seo {
     background-image: url(https://www.alura.com.br/assets/api/cursos/seo-otimizacao-sites.svg);
 }
+.grid {
+    background-image: url(https://www.alura.com.br/assets/api/cursos/css-grid-layout.svg);
+}
 
-
+.flex-grid {
+    background-image: url(https://www.alura.com.br/assets/api/cursos/css-dispondo-elementos-flexbox-grid.svg);
+}
+.regex {
+    background-image: url(https://www.alura.com.br/assets/api/cursos/expressoes-regulares.svg);
+}
+.praticando {
+    background-image: url(https://www.alura.com.br/assets/api/cursos/html-css-praticando-html-css.svg);
+}
+.dom {
+    background-image: url(https://www.alura.com.br/assets/api/cursos/javascript-manipulando-dom.svg);
+}
+.javaweb {
+    background-image: url(https://www.alura.com.br/assets/api/cursos/javascript-programando-na-linguagem-web.svg);
+}
 
 
 
@@ -198,6 +226,7 @@
 .formulario__botao {
     grid-area: botao;
 }
+
 
 
 
