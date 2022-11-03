@@ -8,6 +8,8 @@
 
     --bkg-escuro: #070F21;
     --bkg-claro: #0B1733;
+    --bkg-azul:#17316E;
+
     --montserrat: montserrat, Sans-serif;
     --dancing: Dancing Script, cursive;
     --pacifico: pacifico, cursive;
@@ -42,14 +44,14 @@ main{
     transition: all 400ms;
 }
 
-.escuro{
+.fundoBody{
     background-color: var(--bkg-escuro)!important;
 }
-.claro{
+.fundoClaro{
     background-color: var(--bkg-claro) !important;
 }
 .fundoFormacao{
-    background-color: #17316E;
+    background-color: var(--bkg-azul)!important;
 }
 .fonteBranco{
     color: var(--azul-claro)!important;

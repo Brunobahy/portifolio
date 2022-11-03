@@ -1,6 +1,6 @@
 .rodape{
     margin-top: 2rem;
-    padding: 1rem 0;
+    padding: 0.5em 0;
     background-color: var(--azul);
 }
 .rodape__container{

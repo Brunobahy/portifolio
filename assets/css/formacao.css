@@ -1,18 +1,20 @@
-#formacao{
+#formacao {
     margin-top: 1rem;
 }
-.formacao__titulo{
+
+.formacao__titulo {
     text-align: center;
 }
 
-.formacao__lista{
+.formacao__lista {
     display: flex;
     flex-wrap: wrap;
 
     justify-content: space-evenly;
     align-items: center;
 }
-.formacao__item{
+
+.formacao__item {
     text-align: center;
     padding: 10px;
     box-shadow: 1px 1px 10px lightgray;
@@ -23,7 +25,7 @@
     margin-bottom: 1.5rem;
 }
 
-.formacao__item--imagem{
+.formacao__item--imagem {
     height: 50px;
     margin: 10px;
 
@@ -31,52 +33,53 @@
     background-position: center;
 }
 
-.formacao__item--nome{
+.formacao__item--nome {
     font: bold 0.8rem var(--montserrat);
     padding: 5px 0;
 }
 
-.formacao__item--texto{
+.formacao__item--texto {
     font: lighter 1rem var(--montserrat);
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 677px) {
 
-    .formacao__item{
+    .formacao__item {
         width: 90%;
         height: 17rem;
     }
-    
-    .formacao__lista{ 
+
+    .formacao__lista {
         height: auto;
     }
 }
 
-@media screen and (min-width: 678px){
-    .formacao__item{
-    
+@media screen and (min-width: 678px) {
+    .formacao__item {
+
         width: 27%;
         height: 17rem;
     }
-    
-    .formacao__lista{
+
+    .formacao__lista {
         height: auto;
     }
 }
 
-@media screen and (min-width: 1114px ){
-    .formacao__item{
-    
-        width: 16%;
-        height: 27%;
+@media screen and (min-width: 1114px) {
+    .formacao__item {
+
+        width: 190px;
+        height: 175px;
     }
-    .formacao__item:hover{
-        width: 17%;
-        height: 28%;
+
+    .formacao__item:hover {
+        width: 200px;
+        height: 185px;
         box-shadow: 1px 1px 15px gray;
     }
-    
+
 }
 
 
@@ -86,43 +89,55 @@
 
 /*imagens*/
 
-.acessibilidade{
+.acessibilidade {
     background-image: url(https://www.alura.com.br/assets/api/cursos/acessibilidade-web-front-end.svg);
 }
-.arquitetura__css{
+
+.arquitetura__css {
     background-image: url(https://www.alura.com.br/assets/api/cursos/arquitetura-css.svg);
 }
-.arquitetura__computadores{
+
+.arquitetura__computadores {
     background-image: url(https://www.alura.com.br/assets/api/cursos/arquitetura-computadores-funcionamento-programa.svg);
 }
-.flexbox{
+
+.flexbox {
     background-image: url(https://www.alura.com.br/assets/api/cursos/posicione-elementos-com-flexbox.svg);
 }
-.git{
+
+.git {
     background-image: url(https://www.alura.com.br/assets/api/cursos/git-github-repositorio-commit-versoes.svg);
 }
-.html__1{
+
+.html__1 {
     background-image: url(https://www.alura.com.br/assets/api/cursos/html5-css3-primeiros-passos.svg);
 }
-.html__2{
+
+.html__2 {
     background-image: url(https://www.alura.com.br/assets/api/cursos/html5-css3-posicionamento-listas-navegacao.svg);
 }
-.javascript{
+
+.javascript {
     background-image: url(https://www.alura.com.br/assets/api/cursos/javascript-web-paginas-dinamicas.svg);
 }
-.responsivo{
+
+.responsivo {
     background-image: url(https://www.alura.com.br/assets/api/cursos/mobile-first-layouts-responsivos.svg);
 }
-.linux{
+
+.linux {
     background-image: url(https://www.alura.com.br/assets/api/cursos/linux-ubuntu.svg);
 }
-.logica-1{
+
+.logica-1 {
     background-image: url(https://www.alura.com.br/assets/api/cursos/pong-javascript.svg);
 }
-.logica-2{
+
+.logica-2 {
     background-image: url(https://www.alura.com.br/assets/api/cursos/javascript-listas-lacos.svg);
 }
-.seo{
+
+.seo {
     background-image: url(https://www.alura.com.br/assets/api/cursos/seo-otimizacao-sites.svg);
 }
 
@@ -130,12 +145,12 @@
 
 
 
-.formulario{
+.formulario {
     display: grid;
     grid-template-areas:
-    ". erro ."
-    "nome texto link"
-    ". botao .";
+        ". erro ."
+        "nome texto link"
+        ". botao .";
     align-items: center;
     gap: 2em;
     font-weight: 500;
@@ -143,36 +158,36 @@
     padding: 2em 1em;
 }
 
-.formulario__titulo{
+.formulario__titulo {
     color: var(--marrom);
     font-weight: bold;
     font-size: 2em;
     text-decoration: underline;
 }
 
-.formulario__mensagem{
+.formulario__mensagem {
     grid-area: erro;
     animation: animaColor 100ms infinite linear;
 }
 
-.formulario__grupo{
+.formulario__grupo {
     display: flex;
     flex-direction: column;
 }
 
-.nome{
+.nome {
     grid-area: nome;
 }
 
-.texto{
+.texto {
     grid-area: texto;
 }
 
-.link{
+.link {
     grid-area: link;
 }
 
-.formulario__resposta{
+.formulario__resposta {
     margin-top: 5px;
     height: 40px;
     text-align: left;
@@ -180,7 +195,7 @@
     font-size: 0.7em;
 }
 
-.formulario__botao{
+.formulario__botao {
     grid-area: botao;
 }
 
@@ -188,20 +203,28 @@
 
 @keyframes animaColor {
 
-    0%{
+    0% {
         color: tomato;
     }
-    100%{
+
+    100% {
         color: red;
     }
-    
+
 }
 
+#label-filtro {
+    font-weight: 600;
+    margin-left: 25px;
+}
 
-#filtro{
+#filtro {
+    border-radius: 20px;
+    border: var(--marrom) solid 1px;
+    padding: 10px;
     margin-bottom: 20px;
 }
 
-.esconde{
+.esconde {
     display: none;
 }

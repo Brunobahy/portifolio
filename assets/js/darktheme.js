@@ -4,12 +4,14 @@ var botaoDark = document.querySelector("#botao-dark");
 
 botaoDark.addEventListener("click", function () {
     tema = !tema
-    verificaTags(".container-cinza", "claro");
-    verificaTags("body", "escuro");
-    verificaTags(".formacao__item", "fundoClaro");
-    verificaTags(".projetos__itens", "fundoClaro")
+    verificaTags(".container-cinza", "fundoClaro");
+    verificaTags("body", "fundoBody");
+    verificaTags(".formacao__item", "fundoFormacao");
+    verificaTags(".projetos__itens", "fundoFormacao")
     mudaCorTexto("p");
-    mudaCorTexto("h3")
+    mudaCorTexto("h3");
+    mudaCorTexto("#label-filtro");
+
 
 })
 

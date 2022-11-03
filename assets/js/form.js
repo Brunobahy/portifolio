@@ -121,3 +121,25 @@ function validaTexto(texto){
 
 
 }
+
+
+/*
+        <form action="" class="formulario">
+            <h2 class="formulario__titulo">Inserir formação</h2>
+            <span class="formulario__mensagem"></span>
+            <div class="formulario__grupo nome">
+                <label class="formulario__nome" for="nome">Formação:</label>
+                <input class="label-comum" class="formulario__texto" type="text" title="nome" id="nome"
+                    placeholder="Nome da formação">
+            </div>
+            <div class="formulario__grupo texto">
+                <label class="formulario__nome" for="texto">Texto:</label>
+                <input class="label-comum" type="text" id="texto" placeholder="Texto da formação">
+            </div>
+            <div class="formulario__grupo link">
+                <label for="link" class="formulario__nome">Link:</label>
+                <input class="label-comum" id="link" type="text" class="formulario__texto" placeholder="link aqui">
+            </div>
+            <button class="formulario__botao" type="button">Enviar</button>
+        </form>
+*/

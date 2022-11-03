@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/formacao.css">
     <link rel="stylesheet" href="assets/css/projetos.css">
     <link rel="stylesheet" href="assets/css/rodape.css">
-    
+
 
 </head>
 
@@ -29,10 +29,10 @@
                     <a href="#" class="cabecalho__navegacao--link">Home</a>
                 </li>
                 <li class="cabecalho__navegacao--itens">
-                    <a href="#formacao"class="cabecalho__navegacao--link">formações</a>
+                    <a href="#formacao" class="cabecalho__navegacao--link">formações</a>
                 </li>
                 <li class="cabecalho__navegacao--itens">
-                    <a href="#projetos"class="cabecalho__navegacao--link">projetos</a>
+                    <a href="#projetos" class="cabecalho__navegacao--link">projetos</a>
                 </li>
                 <li class="cabecalho__navegacao--itens">
                     <a href="#" class="cabecalho__navegacao--link">contato</a>
@@ -56,9 +56,9 @@
 
             <h2 class="formacao__titulo titulo">Formação</h2>
 
-            <label class="" for="filtro">Filtrar:</label>
-            <input type="text" name="filtro" id="filtro">
-
+            <label id="label-filtro" for="filtro">Filtrar por nome:</label>
+            <input type="text" name="filtro" id="filtro" placeholder="Nome">
+            
             <ul class="formacao__lista">
                 <li class="formacao__item">
                     <div class="formacao__item--imagem acessibilidade"></div>
@@ -153,25 +153,6 @@
             </ul>
         </section>
 
-        <form action="" class="formulario">
-            <h2 class="formulario__titulo">Inserir formação</h2>
-            <span class="formulario__mensagem"></span>
-            <div class="formulario__grupo nome">
-                <label class="formulario__nome" for="nome">Formação:</label>
-                <input class="label-comum" class="formulario__texto" type="text" title="nome" id="nome"
-                    placeholder="Nome da formação">
-            </div>
-            <div class="formulario__grupo texto">
-                <label class="formulario__nome" for="texto">Texto:</label>
-                <input class="label-comum" type="text" id="texto" placeholder="Texto da formação">
-            </div>
-            <div class="formulario__grupo link">
-                <label for="link" class="formulario__nome">Link:</label>
-                <input class="label-comum" id="link" type="text" class="formulario__texto" placeholder="link aqui">
-            </div>
-            <button class="formulario__botao" type="button">Enviar</button>
-        </form>
-
         <section id="projetos" class="container container-cinza">
             <h2 class="projetos__titulo titulo">Projetos</h2>
             <div>
@@ -212,7 +193,7 @@
     </footer>
     <script src="https://kit.fontawesome.com/af0093df6b.js" crossorigin="anonymous"></script>
     <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/form.js"></script>
+    <!-- <script src="./assets/js/form.js"></script> -->
     <script src="./assets/js/filtro.js"></script>
     <script src="./assets/js/darktheme.js"></script>
 
