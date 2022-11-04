@@ -18,3 +18,9 @@ campoFiltro.addEventListener("input",function(){
     }
 
 })
+
+
+var todasFormacoes = document.querySelectorAll(".formacao__item");
+var numero = document.querySelector("[data-formacao]")
+
+numero.textContent = todasFormacoes.length
