@@ -1,3 +1,10 @@
+@import url(cabecalho.css);
+@import url(apresentacao.css);
+@import url(formacao.css);
+@import url(projetos.css);
+@import url(rodape.css);
+
+
 :root{
     --azul: #88C1F2;
     --azul-claro: #A2D4F2;
