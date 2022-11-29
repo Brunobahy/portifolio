@@ -11,7 +11,7 @@ Projeto realizado para aprimorar e demonstrar minhas habilidades, e quem sabe co
 | :fire: Desafio     | Foi um desafio particular
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![Captura de tela 2022-11-10 083349](https://user-images.githubusercontent.com/110056385/201087792-84fcbb80-1734-4b42-bb5c-24faaa2fc139.png)
+![Captura de tela 2022-11-10 083349](https://user-images.githubusercontent.com/110056385/201087792-84fcbb80-1734-4b42-bb5c-24faaa2fc139.png#vitrinedev)
 
 ## Detalhes do projeto
 
