@@ -86,6 +86,8 @@ main{
     align-items: center;
     justify-content: center;
     color: #FFF;
+    flex-direction: column;
+    font-weight: 700;
 }
 #aviso a{
     display: block;
